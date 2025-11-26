@@ -1,3 +1,11 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(git -C /Users/adith/Documents/work/dsa_practice push)",
+      "Bash(git -C /Users/adith/Documents/work/dsa_practice add .claude/settings.local.json)",
+      "Bash(git -C /Users/adith/Documents/work/dsa_practice commit -m \"$(cat <<''EOF''\nUpdate local Claude settings with mkdir permission\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ]
+  },
   "outputStyle": "Learning"
 }
